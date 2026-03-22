@@ -1,4 +1,4 @@
-import './index.css'
+import './index.css';
 import { LitElement, html, type TemplateResult } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import.meta.glob('./**/*.ts', { eager: true });

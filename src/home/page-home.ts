@@ -1,6 +1,6 @@
-import { LitElement, css, html, unsafeCSS, type TemplateResult } from 'lit';
+import { LitElement, html, unsafeCSS, type TemplateResult } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
-import styles from "./styles-home.css?raw"
+import styles from "./styles-home.css?raw";
 @customElement('page-home')
 export class PageHome extends LitElement {
   @property()
